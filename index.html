@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>olx</title>
+</head>
+<body>
+    <header>
+        <ul class="header1">
+            <li class="header1Img"><a href="#home"><img src="./images/olx_logo.png" alt="image not found"></a></li>
+            <li> <a href="#cars"><ion-icon name="car-sport-outline"></ion-icon>MOTORES</a></li>
+            <li><a href="#property"><ion-icon name="business-outline"></ion-icon>PROPERTY</a></li>          
+        </ul>
+        <div class="header2">
+              <img src="./images/olx black.png" alt="image not found">
+              <select name="locaiton" id="location">
+                <option value="select" selected>Pakistan</option>
+                <option value="default">Use default location</option>
+                <option value="faisalabad">Faisalabd</option>
+                <option value="lahore">lahore</option>
+                <option value="karachi">Karachi</option>
+                <option value="islamabad">Islamabad</option>
+              </select>
+
+              <form class="searchForm" action="#" method="get">
+                <input type="text" name="search" id="search" placeholder="Find,Cars,Mobile Phones and more...">
+                <button><ion-icon name="search-outline"></ion-icon></button>
+              </form>
+
+              <a class="loginBtn" href="#login">Login</a>
+              <button class="sellBtn"><ion-icon name="add-outline"></ion-icon> SELL</button>
+        </div>
+    </header>
+
+
+
+
+    <!-- iconic script  -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
