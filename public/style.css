@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    overflow-x: hidden;
+     overflow-x: hidden; 
 }
 header{
     top: 0;
@@ -38,9 +38,9 @@ header{
 .header1>li>a ion-icon{
     padding: 8px;
     font-size: 18px;
+    margin-right: 5px;
     border-radius: 14px;
     vertical-align: middle;
-    margin-right: 5px;
      background: linear-gradient(180deg,rgba(187, 184, 184, 0.355),whitesmoke);
 }
 .header1 img{
@@ -75,24 +75,27 @@ header{
     padding: 10px;
     font-size: 16px;
     font-weight: 400;
+    border: 2px solid #002f34;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    border: 2px solid #002f34;
+}
+.searchForm input:focus{
+    outline: #05e6ff !important;
 }
 .searchForm button{
     top: 5px;
     right: -5px;
-    padding: 9px 10px;
-    padding-bottom: 4px;
     color: white;
     font-size: 26px;
     font-weight: 500;
+    padding: 9px 10px;
     border-style: none;
     position: absolute;
+    padding-bottom: 4px;
     display: inline-block;
+    background-color: #002f34;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    background-color: #002f34;;
 }
 .loginBtn{
     margin-left: 25px;
@@ -127,8 +130,8 @@ header{
 
 /* navbar star  */
 nav{
-    margin-top: 130px;
     padding: 12px;
+    margin-top: 130px;
     box-shadow: 0px 4px 15px 0px rgb(248, 247, 247);
 }
 .allCategory{
@@ -158,8 +161,8 @@ nav{
 .shortNav li a{
     font-size: 14px;
     color: #002f34;
-    font-family: sans-serif;
     text-decoration: none;
+    font-family: sans-serif;
 }
 .shortNav li a:hover{
     color: #0994a4;
@@ -178,8 +181,8 @@ nav{
 
 /* items section starting */
 .recom{
-    font-weight: 100;
     font-size: 24px;
+    font-weight: 100;
     color: #002f34;
     margin-top: 50px;
     margin-bottom: 20px;
@@ -210,8 +213,8 @@ nav{
     height: 170px;
 }
 .card h3{
-    color: #002f34;
     margin-top: 20px;
+    color: #002f34;
     padding-left: 20px;
     position: relative;
     font-family: sans-serif;
@@ -222,8 +225,8 @@ nav{
     position: absolute;
 }
 .info{
-    padding-left: 20px;
     color: #002f34;
+    padding-left: 20px;
     font-family: sans-serif;
 }
 .extraInfo{
@@ -235,8 +238,8 @@ nav{
     font-family: sans-serif;
 }
 .location{
-    font-size: 14px;
     display: block;
+    font-size: 14px;
     color: #002f34;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -251,10 +254,10 @@ nav{
 .featured{
     top: 10px;
     left: 10px;
-    padding: 4px 10px;
     font-size: 14px;
-    font-weight: bold;
     color: #002f34;
+    font-weight: bold;
+    padding: 4px 10px;
     position: absolute;
     border-radius: 5px ;
     font-family: sans-serif;
@@ -284,6 +287,7 @@ nav{
     width: 100%;
     margin: 70px auto;
     margin-bottom: 0px !important;
+    background-color: #f8faf9 !important;
 
 }
 .footImg{
@@ -306,10 +310,10 @@ nav{
 }
 .leftP{
     left: 38%;
-    top: 110px;
+    top: 100px;
     width: 23%;
     letter-spacing: 1px;
-    font-size: 18px;
+    font-size: 16px;
     color: #002f34;
     position: absolute;
     font-family: sans-serif;
@@ -342,7 +346,7 @@ nav{
 }
 
 .footer2{
-    width: 100%;
+    width: 90.5%;
     color: #002f34;
     position: relative;
     padding-left: 150px;
@@ -368,9 +372,9 @@ nav{
 }
 .footer2  ul li a{
     font-size: 13px;
-    color: #043136ae !important;
     text-decoration: none;
     font-family: sans-serif;
+    color: #043136ae !important;
 }
 .footer2  ul li a:hover{
     color: #002f34 !important;
@@ -381,16 +385,15 @@ nav{
 }
 .foot2RightPannel{
     top: 5px;
-    right: 15%;
+    right: 120px;
     position: absolute;
-   /* background-color: #0994a4; */
 }
 .foot2RightPannel p{
     display: block;
-    margin-bottom: 10px;
     font-size: 14px;
     color: #002f34;
     font-weight: bold;
+    margin-bottom: 10px;
     font-family: sans-serif;
 }
 .foot2RightPannel a{
@@ -400,8 +403,8 @@ nav{
 }
 .foot2RightPannel img{
     width: 80px;
-    margin-left: 10px;
     margin-top: 30px;
+    margin-left: 10px;
 }
 .footer3{
     color:white;
