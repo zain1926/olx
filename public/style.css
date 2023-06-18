@@ -1,11 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
-     overflow-x: hidden; 
+
+body {
+    overflow-x: hidden;
 }
-header{
+
+header {
     top: 0;
     left: 0;
     z-index: 5;
@@ -15,61 +17,71 @@ header{
     overflow: hidden;
     background-color: whitesmoke;
 }
-.header1{ 
+
+.header1 {
+    width: 80%;
     padding: 10px;
     list-style-type: none;
 }
 
-.header1 li{
+.header1 li {
     margin-left: 20px;
     display: inline-block;
 }
-.header1Img{
+
+.header1Img {
     padding-right: 20px;
-    padding-left: 100px;
+    padding-left: 7%;
 }
-.header1>li a{
+
+.header1>li a {
     color: black;
     font-size: 11px;
     padding-bottom: 20px;
     text-decoration: none;
     font-family: sans-serif;
 }
-.header1>li>a ion-icon{
+
+.header1>li>a ion-icon {
     padding: 8px;
     font-size: 18px;
     margin-right: 5px;
     border-radius: 14px;
     vertical-align: middle;
-     background: linear-gradient(180deg,rgba(187, 184, 184, 0.355),whitesmoke);
+    background: linear-gradient(180deg, rgba(187, 184, 184, 0.355), whitesmoke);
 }
-.header1 img{
-     width: 50px;
-     vertical-align: middle;
-}
-.header2 img{
-    width: 70px;
-    margin-left: 150px;
+
+.header1 img {
+    width: 50px;
     vertical-align: middle;
 }
-.header2 select{
+
+.header2 img {
+    width: 70px;
+    margin-left: 8%;
+    vertical-align: middle;
+}
+
+.header2 select {
     width: 16%;
     height: 45px;
     padding: 10px;
     font-size: 16px;
     font-weight: 400;
     border-radius: 4px;
-    margin-right: 10px;
-    margin-left: 30px;
+    margin-right: 1%;
+    margin-left: 3%;
     border: 2px solid #002f34;
 }
-.searchForm{
+
+.searchForm {
     padding: 5px;
     position: relative;
     display: inline-block;
     width: 44% !important;
 }
-.searchForm input{
+
+.searchForm input {
     width: 97%;
     height: 22px;
     padding: 10px;
@@ -79,10 +91,12 @@ header{
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
-.searchForm input:focus{
+
+.searchForm input:focus {
     outline: #05e6ff !important;
 }
-.searchForm button{
+
+.searchForm button {
     top: 5px;
     right: -5px;
     color: white;
@@ -97,7 +111,8 @@ header{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-.loginBtn{
+
+.loginBtn {
     margin-left: 25px;
     font-size: 16px;
     color: #002f34;
@@ -107,38 +122,43 @@ header{
     font-family: sans-serif;
     border-bottom: 2px solid #002f34;
 }
-.loginBtn:hover{
+
+.loginBtn:hover {
     border: none;
 }
-.sellBtn{
+
+.sellBtn {
     width: 110px;
     height: 50px;
     border: none;
     cursor: pointer;
-    color: #002f34;;
+    color: #002f34;
     margin-left: 20px;
     font-weight: bolder;
     font-family: sans-serif;
     background-repeat: no-repeat;
     background-image: url(https://www.olx.com.pk/assets/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg);
 }
-.sellBtn ion-icon{
+
+.sellBtn ion-icon {
     font-weight: bold !important;
     font-size: 16px;
     vertical-align: middle;
 }
 
 /* navbar star  */
-nav{
+nav {
     padding: 12px;
     margin-top: 130px;
     box-shadow: 0px 4px 15px 0px rgb(248, 247, 247);
 }
-.allCategory{
-    margin-left: 155px;
+
+.allCategory {
+    margin-left: 10%;
     display: inline-block;
     list-style-type: none;
 }
+
 .allCategory li {
     font-size: 14px;
     color: #002f34;
@@ -146,132 +166,156 @@ nav{
     display: inline-block;
     font-family: sans-serif;
 }
-.allCategory li ion-icon{
+
+.allCategory li ion-icon {
     font-size: 28px;
-    vertical-align: middle ;
+    vertical-align: middle;
 }
-.shortNav{
+
+.shortNav {
     list-style-type: none;
     display: inline-block;
 }
-.shortNav li{
+
+.shortNav li {
     margin-left: 10px;
     display: inline-block;
 }
-.shortNav li a{
+
+.shortNav li a {
     font-size: 14px;
     color: #002f34;
     text-decoration: none;
     font-family: sans-serif;
 }
-.shortNav li a:hover{
+
+.shortNav li a:hover {
     color: #0994a4;
 }
 
 /* banner starting */
-.banner{
+.banner {
     margin-top: 30px;
     text-align: center;
 }
-.banner img{
+
+.banner img {
     width: 80%;
     height: auto;
     border-radius: 4px;
 }
 
 /* Cards section starting */
-.recom{
+.itemSection {
+    gap: 10px;
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: flex-start;
+}
+
+.recom {
+    width: 100%;
+    display: flex;
     font-size: 24px;
     font-weight: 100;
     color: #002f34;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    margin-left: 160px;
+    margin-top: 100px;
+    font-family: sans-serif;
+    align-self: flex-start;
+}
+
+.card {
+    width: 22%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    background-color: white;
+    border: .1rem solid rgba(0, 47, 52, .2);
+}
+
+.card img {
+    width: 100%;
+    height: 50%;
+}
+
+.card h3 {
+    margin-top: 4%;
+    font-size: 1.1vw;
+    color: #002f34;
+    padding-left: 20px;
+    position: relative;
     font-family: sans-serif;
 }
 
-.itemSection{
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    flex-direction: row;
-    justify-items: center;
-    justify-content: space-between;
-}
-.card{
-    width: 300px;
-    height: 375px;
-    overflow: hidden;
-    position: relative;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    border: .1rem solid rgba(0,47,52,.2);
-}
-.card img{
-    width: 300px;
-    height: 170px;
-}
-.card h3{
-    margin-top: 20px;
-    color: #002f34;
-    padding-left: 20px;
-    position: relative;
-    font-family: sans-serif;
-}
-.favourit{
+.favourit {
     top: 0;
     right: 20px;
+    font-size: 1.1vw;
     position: absolute;
 }
-.info{
+
+.info {
     color: #002f34;
     padding-left: 20px;
     font-family: sans-serif;
 }
-.extraInfo{
-    font-size: 14px;
+
+.extraInfo {
+    font-size: 0.8vw;
 }
-.card p{
-    padding: 20px;
+
+.card p {
+    font-size: 0.9vw;
+    padding: 5% 20px;
     color: #002f34;
     font-family: sans-serif;
 }
-.location{
+
+.location {
     display: block;
-    font-size: 14px;
+    font-size: 0.8vw;
     color: #002f34;
-    margin-top: 10px;
+    margin-top: 1%;
     margin-bottom: 10px;
     font-family: sans-serif;
 }
-.date{
-    font-size: 13px;
+
+.date {
+    font-size: 0.8vw;
     color: #002f34;
     margin-left: 10px;
     font-family: sans-serif;
 }
-.featured{
+
+.featured {
     top: 10px;
     left: 10px;
-    font-size: 14px;
+    font-size: 1vw;
     color: #002f34;
     font-weight: bold;
     padding: 4px 10px;
     position: absolute;
-    border-radius: 5px ;
+    border-radius: 5px;
     font-family: sans-serif;
     background-color: rgb(255, 205, 4);
 }
 
-.loadMore{
-    text-align: center;
+.loadMore {
+    height: 70px;
+    padding-top: 10px;
     margin-top: 50px;
+    text-align: center;
     margin-bottom: 50px;
 }
-.loadMore button{
-    padding: 15px;
-    font-size: 18px;
+
+.loadMore button {
+    padding: 1vw;
+    font-size: 1.2vw;
     cursor: pointer;
     color: #002f34;
     font-weight: bold;
@@ -280,85 +324,98 @@ nav{
     border: 2px solid #002f34;
     background-color: transparent;
 }
-.loadMore button:hover{
+
+.loadMore button:hover {
     border: 4px solid #002f34;
 }
 
 /* footer section start */
 
-.footer{
+.footer {
     width: 100%;
     margin: 70px auto;
     margin-bottom: 0px !important;
     background-color: #f8faf9 !important;
 
 }
-.footImg{
+
+.footImg {
     width: 30%;
 }
-.footer1{
-    padding-left: 150px;
+
+.footer1 {
+    height: auto;
     position: relative;
+    padding-left: 8%;
     background-color: #f8faf9;
 }
-.footer1 h1 , p{
-   display: inline-block;
+
+.footer1 h1, p {
+    display: inline-block;
 }
-.footer1 h1{
-    top: 48px;
+
+.footer1 h1 {
+    font-size: 2.2vw;
+    top: 25%;
     left: 38%;
     color: #002f34;
     position: absolute;
     font-family: sans-serif;
 }
-.leftP{
-    left: 38%;
-    top: 100px;
+
+.leftP {
+    left: 39%;
+    top: 54%;
     width: 23%;
-    letter-spacing: 1px;
-    font-size: 16px;
+    font-size: 1.1vw;
     color: #002f34;
     position: absolute;
+    letter-spacing: 1px;
     font-family: sans-serif;
 }
-.seprator{
-    top: 50px;
+
+.seprator {
+    top: 19%;
     left: 63%;
     width: 2px;
-    height: 120px;
+    height: 8vw;
     position: absolute;
     background-color: rgb(199, 194, 194);
 
 }
-.rightPannel{
-    top: 73px;
+
+.rightPannel {
+    top: 30%;
     left: 65%;
     position: absolute;
 }
-.rightP{
+
+.rightP {
     display: block;
     font-size: 14px;
     color: #002f34;
     font-weight: bold;
-    margin-bottom: 15px ;
-    font-family: sans-serif   ;
-}
-.apple, .playStore , .huawei{
-   width: 130px;
-   margin-left: 5px;
+    margin-bottom: 15px;
+    font-family: sans-serif;
 }
 
-.footer2{
+.apple, .playStore, .huawei {
+    width: 8vw;
+    margin-left: 5px;
+}
+
+.footer2 {
     width: 90.5%;
     color: #002f34;
     position: relative;
-    padding-left: 150px;
+    padding-left: 8%;
     padding-bottom: 50px;
     font-family: sans-serif;
     background-color: whitesmoke;
-    border-top: .1rem solid rgba(0,47,52,.2);
+    border-top: .1rem solid rgba(0, 47, 52, .2);
 }
-.footer span{
+
+.footer span {
     display: block;
     font-size: 14px;
     color: #002f34;
@@ -366,59 +423,424 @@ nav{
     margin-bottom: 10px;
     font-family: sans-serif;
 }
-.footer2 div, ul{
+
+.footer2 div, ul {
     list-style-type: none;
-   display: inline-block;
+    display: inline-block;
 }
-.footer2 ul li{
+
+.footer2 ul li {
     padding: 4px 0px;
 }
-.footer2  ul li a{
+
+.footer2 ul li a {
     font-size: 13px;
     text-decoration: none;
     font-family: sans-serif;
     color: #043136ae !important;
 }
-.footer2  ul li a:hover{
+
+.footer2 ul li a:hover {
     color: #002f34 !important;
 }
-.footer2 div{
+
+.footer2 div {
     margin-top: 20px;
-    margin-left: 60px;
+    margin-left: 5%;
 }
-.foot2RightPannel{
+
+.foot2RightPannel {
     top: 5px;
-    right: 120px;
+    left: 60%;
     position: absolute;
 }
-.foot2RightPannel p{
+
+.foot2RightPannel p {
     display: block;
-    font-size: 14px;
+    font-size: 1.2vw;
     color: #002f34;
     font-weight: bold;
     margin-bottom: 10px;
     font-family: sans-serif;
 }
-.foot2RightPannel a{
+
+.foot2RightPannel a {
     padding: 4px;
-    font-size: 17px;
+    font-size: 1.1vw;
     color: #043136ae !important;
 }
-.foot2RightPannel img{
-    width: 80px;
-    margin-top: 30px;
-    margin-left: 10px;
+.foot2RightPannelImgs{
+    width: 100%;
+    margin-left: 0px !important;
+    margin-top: 8%;
+} 
+.foot2RightPannel img {
+    width: 5vw;
+    height: auto;
+    margin-left: 5px;
+    border-radius: 5px;
 }
-.footer3{
-    color:white;
+
+.footer3 {
+    color: white;
     padding: 17px 0;
     margin-bottom: 0;
     text-align: right;
     font-family: sans-serif;
     background-color: #002f34;
 }
-.footer3 p{
+
+.footer3 p {
     font-size: 12px;
     font-weight: bold;
     padding-right: 10%;
 }
+@media screen and (max-width: 1342px){
+   .foot2RightPannel {
+    top: 5px;
+    left: 65%;
+    position: absolute;
+}
+}
+@media screen and (max-width: 1240px){
+    .foot2RightPannel {
+     top: 5px;
+     left: 70%;
+     position: absolute;
+ }
+} 
+  @media screen and (max-width: 1188px){
+    .card{
+        width: 230px;
+        padding-bottom: 20px;
+    }
+    .card h3 {
+        font-size: 1.4vw;
+    }
+    
+    .favourit {
+        font-size: 1.4vw;
+
+    }
+    .extraInfo {
+        font-size: 1vw;
+    }
+    
+    .card p {
+        font-size: 1.1vw;
+    }
+    
+    .location {
+        font-size: 1vw;
+    }
+    .date {
+        font-size: 1vw;
+    }
+    .searchForm input {
+        width: 90%;
+    }
+    .searchForm {
+        width: 40% !important;
+    }
+
+    .footer2 ul li {
+        padding: 1px 0px;
+    }
+    .footer2 div>span {
+        font-size: 12px;
+       
+    }
+    .footer2 ul li a {
+        font-size: 11px;
+    }
+
+    .foot2RightPannel p {
+        font-size: 12px;
+    }
+    
+    .foot2RightPannel a {
+        font-size: 14px;
+    }
+}  
+
+@media screen and (max-width: 993px){
+    .header2 img{
+        scale: 0.9;
+    }
+
+    #location{
+        font-size: 12px !important;
+        margin-right: 1px !important;
+    }
+    .searchForm {
+        margin-right: 0px;
+    } 
+     .searchForm input {
+       font-size: 13px !important;
+    } 
+    .loginBtn{
+        font-size: 14px;
+    }
+    
+    .sellBtn{
+        scale: 0.8;
+    }
+   
+    .card h3 {
+        font-size: 16px;
+    }
+    
+    .favourit {
+        font-size: 16px;
+
+    }
+    .extraInfo {
+        font-size: 13px;
+    }
+    
+    .card p {
+        font-size: 13px;
+    }
+    
+    .location {
+        font-size: 12px;
+    }
+    .date {
+        font-size: 12px;
+    }
+    .searchForm input {
+        width: 90%;
+    }
+    .searchForm {
+        width: 40% !important;
+    }
+    .loadMore button{
+        padding: 8px !important;
+       font-size: 16px !important;
+    }
+    .footer2 div>span {
+        font-size: 12px;
+       
+    }
+    .footer2 ul li a {
+        font-size: 10px;
+    }
+
+    .foot2RightPannel p {
+        font-size: 12px;
+    }
+    
+    .foot2RightPannel a {
+        font-size: 12px;
+    }
+    .foot2RightPannelImgs img{
+        scale: 1.1;
+    }
+
+}  
+@media screen and (max-width: 888px){
+    .header1 img{
+        scale: 0.9;
+    }
+    .header2 img{
+        scale: 0.9;
+    }
+    #location{
+        font-size: 12px !important;
+        margin-right: 1px !important;
+
+    }
+    .searchForm {
+        margin-right: 0px;
+    } 
+     .searchForm input {
+       font-size: 13px !important;
+    } 
+    .loginBtn{
+        font-size: 14px;
+        margin-left: 15px;
+    }
+    .sellBtn{
+        margin-left: 0px;
+    }
+    .recom{
+        margin-left: 12%;
+    }
+    nav a{
+        font-size: 12px !important;
+    }
+    nav li{
+        font-size: 13px;
+    }
+    nav ion-icon{
+        font-size: 14px !important;
+    }
+    .recom{
+        margin-left: 15%;
+        font-size: 22px;
+    }
+    .itemSection{
+        gap: 50px;
+    }
+
+    .foot2RightPannel{
+        left: 78%;
+    }
+    .footer2 ul li {
+        padding: 1px 0px;
+    }
+    .footer2 div>span {
+        font-size: 12px;
+       
+    }
+    .footer2 ul li a {
+        font-size: 11px;
+    }
+
+    .foot2RightPannel p {
+        font-size: 12px;
+    }
+    
+    .foot2RightPannel a {
+        font-size: 14px;
+    }
+}  
+@media screen and (max-width: 791px){
+    .header1{
+        scale: 0.9;
+    }
+    .header2{
+        scale: 0.9;
+    }
+    .header1Img{
+        padding-left: 2% !important;
+        padding-right: 10px !important;
+        scale: 0.7;
+    }
+    .header2 img{
+        scale: 0.7;
+        margin-left: 2% !important;
+    }
+    .header2 select{
+        margin-left: 1%;
+    }
+    #location{
+        font-size: 12px !important;
+        margin-right: 1px !important;
+       scale: 0.9;
+    }
+    .searchForm {
+        margin-right: 0px;
+        scale: 0.9;
+    } 
+     .searchForm input {
+       font-size: 13px !important;
+    } 
+    .loginBtn{
+        font-size: 14px;
+        margin-left: 15px;
+    }
+    .sellBtn{
+        margin-left: 0px;
+    }
+    .recom{
+        margin-left: 12%;
+    }
+    nav a{
+        font-size: 12px !important;
+    }
+    nav li{
+        font-size: 13px;
+    }
+    nav ion-icon{
+        font-size: 14px !important;
+    }
+    .allCategory{
+        margin-left: 1% !important;
+    }
+    .footer1{
+        padding-left: 0px;
+    }
+    .footer1 img{
+        margin-left: 0px;
+    }
+    .footer2 {
+        width: 100%;
+        padding-left: 0;
+    }
+    .foot2RightPannel{
+        left: 78%;
+    }
+    .footer2 ul li {
+        padding: 1px 0px;
+    }
+ 
+}  
+@media screen and (max-width: 700px){
+    .recom{
+        margin-left: 5%;
+    }
+    nav a{
+        font-size: 11px !important;
+    }
+    .allCategory li{
+        font-size: 12px;
+    }
+    nav ion-icon{
+        font-size: 12px !important;
+    }
+    .allCategory{
+        font-size: 10px !important;
+    }
+   
+    .foot2RightPannel{
+        left: 78%;
+    }
+    .footer2 div>span {
+        font-size: 11px;
+       
+    }
+    .footer2 ul li a {
+        font-size: 10px;
+    }
+
+    .foot2RightPannel p {
+        font-size: 11px;
+    }
+    
+    .foot2RightPannel a {
+        font-size: 13px;
+    }
+   
+}  
+@media screen and (max-width: 645px){
+   .header1{
+    scale: 0.8;
+   }
+   .header2{
+    scale: 0.8;
+   }
+    .recom{
+        margin-left: 5%;
+    }
+    .itemSection{
+        gap: 10px!important;
+    }
+    .card{
+        scale: 0.9;
+    }
+    nav a{
+        font-size: 11px !important;
+    }
+    .allCategory li{
+        font-size: 12px;
+    }
+    nav ion-icon{
+        font-size: 12px !important;
+    }
+    .allCategory{
+        font-size: 10px !important;
+    }
+   
+   
+}  
